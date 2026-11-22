@@ -1,4 +1,4 @@
-// Device frames for the app screens on the home page (docs/changes/04_website/02-mocks.md §2a).
+// Device frames for the app screens on the home page (docs/system/architecture.md, Website).
 // iPad and Mac add the people list on the left. One switch sets the device for all screens.
 (function () {
   const devices = document.querySelectorAll(".device");

@@ -1,5 +1,5 @@
 /* cardxchange.me — colours of the blue design (docs/changes/03_redesign/02-design-roles.md §2).
-   Layout from mock 7 (docs/changes/04_website/02-mocks.md §2a). */
+   The parts of the site: docs/system/architecture.md, Website. */
 @font-face { font-family: "Syncopate"; font-weight: 700; font-style: normal; font-display: swap;
   src: url("fonts/syncopate-700-latin.woff2") format("woff2"); }
 
