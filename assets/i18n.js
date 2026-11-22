@@ -49,7 +49,7 @@
       "nf6.t": "Deine Notizen bleiben deine", "nf6.d": "Notiztext verlässt nie das Gerät. cardXchange ändert nur, was es selbst geschrieben hat.",
       "nf7.t": "Mac, iPhone und iPad", "nf7.d": "Dieselben Personen und Historien auf jedem Gerät.",
       "nf8.t": "Kein Konto, keine Werbung", "nf8.d": "Keine Anmeldung, kein Tracking. Auf Deutsch, Englisch und Französisch.",
-      "foot.platforms": "Mac · iPhone · iPad · Deutsch, English, Français", "foot.privacy": "Datenschutz", "foot.imprint": "Impressum",
+      "foot.deployed": "Veröffentlicht am", "foot.privacy": "Datenschutz", "foot.imprint": "Impressum",
       "meta.privacy": "Datenschutz · cardXchange", "meta.imprint": "Impressum · cardXchange", "meta.404": "Seite nicht gefunden · cardXchange", "meta.card": "Eine Karte für dich · cardXchange"
     },
     fr: {
@@ -95,7 +95,7 @@
       "nf6.t": "Vos notes restent à vous", "nf6.d": "Le texte des notes ne quitte jamais l’appareil. cardXchange ne modifie que ce qu’il a écrit.",
       "nf7.t": "Mac, iPhone et iPad", "nf7.d": "Les mêmes personnes et le même historique sur chaque appareil.",
       "nf8.t": "Pas de compte, pas de pub", "nf8.d": "Pas d’inscription, pas de pistage. En français, anglais et allemand.",
-      "foot.platforms": "Mac · iPhone · iPad · Français, English, Deutsch", "foot.privacy": "Confidentialité", "foot.imprint": "Mentions légales",
+      "foot.deployed": "Publié le", "foot.privacy": "Confidentialité", "foot.imprint": "Mentions légales",
       "meta.privacy": "Confidentialité · cardXchange", "meta.imprint": "Mentions légales · cardXchange", "meta.404": "Page introuvable · cardXchange", "meta.card": "Une carte pour vous · cardXchange"
     }
   };
