@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en" data-title-key="meta.404">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found · cardXchange</title>
+<meta name="robots" content="noindex">
+<!-- GitHub Pages serves this file for every path that has no file, also below /c/.
+     So every link here is absolute. A path below /c/ is a card code (docs/changes/04_website/03-hosting.md §4). -->
+<link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+<script>
+  if (/^\/c(\/|$)/.test(location.pathname)) {
+    document.documentElement.classList.add("card");
+    document.documentElement.dataset.titleKey = "meta.card";
+    document.title = "A card for you · cardXchange";
+  }
+</script>
+<style>
+  html.card .k-nf, html:not(.card) .k-card { display: none; }
+</style>
+</head>
+<body>
+<aside class="rail">
+  <a href="/" aria-label="cardXchange"><span class="vwm" aria-hidden="true">CARD<span class="x">X</span>CHANGE<span class="me">.ME</span></span></a>
+  <img src="/assets/logo.svg" alt="">
+</aside>
+<main><div class="wrap">
+  <nav class="top">
+    <a href="/" data-i18n="nav.home">Home</a>
+    <label class="lang"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg>
+      <select id="lang" aria-label="Language"><option value="en">English</option><option value="de">Deutsch</option><option value="fr">Français</option></select></label>
+  </nav>
+
+  <article class="doc k-card" data-lang="en">
+    <div class="kicker">cardXchange</div>
+    <h1>Someone wants to give you their card.</h1>
+    <p>This code opens a business card in cardXchange, the self-updating business card. When their phone number, address or job changes, the change flows into your Apple Contacts, and you decide which changes are made.</p>
+    <p>cardXchange is coming to the App Store. Install it, then scan the code again.</p>
+    <p><a class="btn fill" href="/">Learn more</a></p>
+  </article>
+  <article class="doc k-card" data-lang="de" hidden>
+    <div class="kicker">cardXchange</div>
+    <h1>Jemand möchte dir seine Karte geben.</h1>
+    <p>Dieser Code öffnet eine Visitenkarte in cardXchange, der Visitenkarte, die sich selbst aktualisiert. Ändern sich Telefonnummer, Adresse oder Job, fließt die Änderung in deine Apple Kontakte – und du entscheidest, welche Änderungen übernommen werden.</p>
+    <p>cardXchange kommt bald in den App Store. Installiere die App und scanne den Code dann noch einmal.</p>
+    <p><a class="btn fill" href="/">Mehr erfahren</a></p>
+  </article>
+  <article class="doc k-card" data-lang="fr" hidden>
+    <div class="kicker">cardXchange</div>
+    <h1>Quelqu’un veut vous donner sa carte.</h1>
+    <p>Ce code ouvre une carte de visite dans cardXchange, la carte de visite qui se met à jour toute seule. Quand son numéro, son adresse ou son poste change, la modification arrive dans vos Contacts Apple, et vous décidez des modifications appliquées.</p>
+    <p>cardXchange arrive bientôt sur l’App Store. Installez l’app, puis scannez de nouveau le code.</p>
+    <p><a class="btn fill" href="/">En savoir plus</a></p>
+  </article>
+
+  <article class="doc k-nf" data-lang="en">
+    <div class="kicker">404</div>
+    <h1>This page does not exist.</h1>
+    <p><a href="/">Go to the home page</a></p>
+  </article>
+  <article class="doc k-nf" data-lang="de" hidden>
+    <div class="kicker">404</div>
+    <h1>Diese Seite gibt es nicht.</h1>
+    <p><a href="/">Zur Startseite</a></p>
+  </article>
+  <article class="doc k-nf" data-lang="fr" hidden>
+    <div class="kicker">404</div>
+    <h1>Cette page n’existe pas.</h1>
+    <p><a href="/">Aller à l’accueil</a></p>
+  </article>
+</div></main>
+<footer class="site"><div class="wrap"><span class="wordmark">CARD<span class="x">X</span>CHANGE<span class="me">.ME</span></span>
+  <span><a href="/privacy.html" data-i18n="foot.privacy">Privacy</a> · <a href="/imprint.html" data-i18n="foot.imprint">Imprint</a></span></div></footer>
+<script src="/assets/i18n.js"></script>
+</body>
+</html>
