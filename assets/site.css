@@ -174,6 +174,29 @@ section.block .lead { color: var(--muted); font-size: 19px; max-width: 640px; ma
 .doc p, .doc li { color: var(--muted); }
 .doc .note { background: var(--panel); border-radius: 14px; padding: 14px 18px; font-size: 15px; color: var(--muted); }
 .doc .note b { color: var(--text); }
+.doc.wide { max-width: none; }
+
+/* What's New: a table that sorts by a click on a column header */
+.scroll { overflow-x: auto; }
+table.wn { width: 100%; border-collapse: collapse; font-size: 15px; }
+table.wn th { text-align: left; border-bottom: 1px solid var(--line); padding: 0; white-space: nowrap; }
+table.wn th button { font: 600 13px var(--body); color: var(--muted); background: none; border: 0; padding: 10px 12px 10px 0; cursor: pointer; }
+table.wn th button:focus-visible { outline: 2px solid var(--tint); outline-offset: 2px; }
+table.wn th[aria-sort="ascending"] button, table.wn th[aria-sort="descending"] button { color: var(--tint-text); }
+table.wn th[aria-sort="ascending"] button::after { content: " ▲"; }
+table.wn th[aria-sort="descending"] button::after { content: " ▼"; }
+table.wn td { padding: 10px 12px 10px 0; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--muted); }
+table.wn td:nth-child(-n+3) { white-space: nowrap; }
+table.wn td:last-child { color: var(--text); }
+/* On a narrow screen each row is a line with date, version and area, and the feature below, as in the iPhone app */
+@media (max-width: 640px) {
+  table.wn, table.wn thead, table.wn tbody { display: block; }
+  table.wn thead tr { display: flex; flex-wrap: wrap; border-bottom: 1px solid var(--line); }
+  table.wn th { border: 0; }
+  table.wn tbody tr { display: flex; flex-wrap: wrap; column-gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  table.wn td { border: 0; padding: 0; font-size: 13px; }
+  table.wn td:last-child { flex-basis: 100%; font-size: 15px; margin-top: 2px; }
+}
 
 footer.site { border-top: 1px solid var(--line); padding: 36px 0 70px; color: var(--muted); font-size: 14px; }
 footer.site .wrap { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }

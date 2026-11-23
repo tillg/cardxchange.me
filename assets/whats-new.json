@@ -1,0 +1,378 @@
+[
+ {
+  "date": "2026-11-18",
+  "version": "0.1.15",
+  "area": "App",
+  "feature": "App for iPhone and iPad; search also finds nicknames.",
+  "de": "App für iPhone und iPad; die Suche findet auch Spitznamen.",
+  "fr": "App pour iPhone et iPad ; la recherche trouve aussi les surnoms."
+ },
+ {
+  "date": "2026-11-18",
+  "version": "0.1.8",
+  "area": "People",
+  "feature": "Connections between people, a rhythm to keep in touch, and links between events.",
+  "de": "Beziehungen zwischen Personen, ein Rhythmus, um in Kontakt zu bleiben, und Links zwischen Ereignissen.",
+  "fr": "Relations entre les personnes, un rythme pour garder le contact et des liens entre événements."
+ },
+ {
+  "date": "2026-11-18",
+  "version": "0.1.10",
+  "area": "App",
+  "feature": "First Mac app with the list of people and the person card.",
+  "de": "Erste Mac-App mit der Liste der Personen und der Personenkarte.",
+  "fr": "Première app Mac avec la liste des personnes et la fiche de la personne."
+ },
+ {
+  "date": "2026-11-18",
+  "version": "0.1.4",
+  "area": "Command line",
+  "feature": "Keep people, events, tags and follow-ups from the command line.",
+  "de": "Personen, Ereignisse, Tags und Folgeaufgaben über die Befehlszeile verwalten.",
+  "fr": "Gérer personnes, événements, tags et suivis depuis la ligne de commande."
+ },
+ {
+  "date": "2026-11-18",
+  "version": "0.1.12",
+  "area": "Events",
+  "feature": "List of events; tick off follow-ups; edit a person.",
+  "de": "Liste der Ereignisse; Folgeaufgaben abhaken; eine Person bearbeiten.",
+  "fr": "Liste des événements ; cocher les suivis ; modifier une personne."
+ },
+ {
+  "date": "2026-11-18",
+  "version": "0.1.11",
+  "area": "Events",
+  "feature": "Log an event in the Mac app.",
+  "de": "Ein Ereignis in der Mac-App erfassen.",
+  "fr": "Noter un événement dans l’app Mac."
+ },
+ {
+  "date": "2026-11-18",
+  "version": "0.1.7",
+  "area": "Command line",
+  "feature": "Open the card of a person in Contacts from the command line.",
+  "de": "Die Karte einer Person in Kontakte über die Befehlszeile öffnen.",
+  "fr": "Ouvrir la fiche d’une personne dans Contacts depuis la ligne de commande."
+ },
+ {
+  "date": "2026-11-18",
+  "version": "0.1.14",
+  "area": "People",
+  "feature": "Person card in the style of Contacts; edit events and relationships in the app.",
+  "de": "Personenkarte im Stil von Kontakte; Ereignisse und Beziehungen in der App bearbeiten.",
+  "fr": "Fiche de la personne dans le style de Contacts ; modifier événements et relations dans l’app."
+ },
+ {
+  "date": "2026-11-18",
+  "version": "0.1.9",
+  "area": "Contacts",
+  "feature": "Write the history of meetings into the contact notes, if you switch it on.",
+  "de": "Den Verlauf der Treffen in die Kontaktnotizen schreiben, wenn du es einschaltest.",
+  "fr": "Écrire l’historique des rencontres dans les notes du contact, si vous l’activez."
+ },
+ {
+  "date": "2026-11-19",
+  "version": "0.1.23",
+  "area": "People",
+  "feature": "Add a new person while you log an event.",
+  "de": "Eine neue Person hinzufügen, während du ein Ereignis erfasst.",
+  "fr": "Ajouter une nouvelle personne pendant que vous notez un événement."
+ },
+ {
+  "date": "2026-11-19",
+  "version": "0.1.28",
+  "area": "Capture",
+  "feature": "Capture a profile screenshot; the device reads the name, picture and profile link.",
+  "de": "Einen Profil-Screenshot erfassen; das Gerät liest Name, Bild und Profillink.",
+  "fr": "Capturer une capture d’écran de profil ; l’appareil lit le nom, la photo et le lien du profil."
+ },
+ {
+  "date": "2026-11-19",
+  "version": "0.1.43",
+  "area": "Command line",
+  "feature": "Find people near a place and locate addresses from the command line.",
+  "de": "Personen in der Nähe eines Orts finden und Adressen über die Befehlszeile verorten.",
+  "fr": "Trouver des personnes près d’un lieu et localiser des adresses depuis la ligne de commande."
+ },
+ {
+  "date": "2026-11-19",
+  "version": "0.1.27",
+  "area": "Capture",
+  "feature": "Link a captured person to a recent event or to a calendar entry.",
+  "de": "Eine erfasste Person mit einem kürzlichen Ereignis oder einem Kalendereintrag verbinden.",
+  "fr": "Relier une personne capturée à un événement récent ou à une entrée du calendrier."
+ },
+ {
+  "date": "2026-11-19",
+  "version": "0.1.43",
+  "area": "Map",
+  "feature": "Map of people by their address.",
+  "de": "Karte der Personen nach ihrer Adresse.",
+  "fr": "Carte des personnes selon leur adresse."
+ },
+ {
+  "date": "2026-11-19",
+  "version": "0.1.44",
+  "area": "Photos",
+  "feature": "Photos of a person, with the face cut out, on all devices.",
+  "de": "Fotos einer Person, mit ausgeschnittenem Gesicht, auf allen Geräten.",
+  "fr": "Photos d’une personne, avec le visage découpé, sur tous les appareils."
+ },
+ {
+  "date": "2026-11-19",
+  "version": "0.1.22",
+  "area": "Events",
+  "feature": "Quick log with more than one person; change the people of an event.",
+  "de": "Schnellerfassung mit mehr als einer Person; die Personen eines Ereignisses ändern.",
+  "fr": "Saisie rapide avec plusieurs personnes ; modifier les personnes d’un événement."
+ },
+ {
+  "date": "2026-11-19",
+  "version": "0.1.40",
+  "area": "Capture",
+  "feature": "Read a business card with the camera; zoom into a picture.",
+  "de": "Eine Visitenkarte mit der Kamera lesen; in ein Bild zoomen.",
+  "fr": "Lire une carte de visite avec l’appareil photo ; zoomer dans une image."
+ },
+ {
+  "date": "2026-11-19",
+  "version": "0.1.30",
+  "area": "Capture",
+  "feature": "Share a screenshot or a profile link to the app from other apps on iPhone and iPad.",
+  "de": "Einen Screenshot oder Profillink aus anderen Apps auf iPhone und iPad an die App teilen.",
+  "fr": "Partager une capture d’écran ou un lien de profil avec l’app depuis d’autres apps sur iPhone et iPad."
+ },
+ {
+  "date": "2026-11-19",
+  "version": "0.1.38",
+  "area": "Capture",
+  "feature": "Share to the app on the Mac; paste or drop a screenshot.",
+  "de": "Auf dem Mac an die App teilen; einen Screenshot einfügen oder ablegen.",
+  "fr": "Partager avec l’app sur Mac ; coller ou déposer une capture d’écran."
+ },
+ {
+  "date": "2026-11-19",
+  "version": "0.1.19",
+  "area": "Contacts",
+  "feature": "Show the contact card of the system inside the iPhone app.",
+  "de": "Die Kontaktkarte des Systems in der iPhone-App zeigen.",
+  "fr": "Afficher la fiche contact du système dans l’app iPhone."
+ },
+ {
+  "date": "2026-11-19",
+  "version": "0.1.17",
+  "area": "App",
+  "feature": "Sync through iCloud between Mac, iPhone and iPad.",
+  "de": "Abgleich über iCloud zwischen Mac, iPhone und iPad.",
+  "fr": "Synchronisation par iCloud entre Mac, iPhone et iPad."
+ },
+ {
+  "date": "2026-11-19",
+  "version": "0.1.18",
+  "area": "People",
+  "feature": "Tag picker with the tags that exist; tags with the same name merge.",
+  "de": "Tag-Auswahl mit den vorhandenen Tags; Tags mit gleichem Namen werden zusammengeführt.",
+  "fr": "Sélecteur de tags avec les tags existants ; les tags de même nom sont fusionnés."
+ },
+ {
+  "date": "2026-11-19",
+  "version": "0.1.41",
+  "area": "People",
+  "feature": "The age shows next to the birthday.",
+  "de": "Das Alter steht neben dem Geburtstag.",
+  "fr": "L’âge s’affiche à côté de l’anniversaire."
+ },
+ {
+  "date": "2026-11-19",
+  "version": "0.1.21",
+  "area": "Contacts",
+  "feature": "The same person is found on each device through the person URL in the contact.",
+  "de": "Dieselbe Person wird auf jedem Gerät über die Personen-URL im Kontakt gefunden.",
+  "fr": "La même personne est retrouvée sur chaque appareil grâce à l’URL de personne dans le contact."
+ },
+ {
+  "date": "2026-11-20",
+  "version": "0.1.46",
+  "area": "Contacts",
+  "feature": "Edit and create contacts in the app.",
+  "de": "Kontakte in der App bearbeiten und anlegen.",
+  "fr": "Modifier et créer des contacts dans l’app."
+ },
+ {
+  "date": "2026-11-20",
+  "version": "0.1.45",
+  "area": "People",
+  "feature": "Larger round buttons on the person card; choose the number or address if there are more than one.",
+  "de": "Größere runde Tasten auf der Personenkarte; Nummer oder Adresse wählen, wenn es mehrere gibt.",
+  "fr": "Boutons ronds plus grands sur la fiche ; choisir le numéro ou l’adresse s’il y en a plusieurs."
+ },
+ {
+  "date": "2026-11-20",
+  "version": "0.1.57",
+  "area": "App",
+  "feature": "New name: pplz is now cardXchange, and the command is cx.",
+  "de": "Neuer Name: pplz heißt jetzt cardXchange, und der Befehl heißt cx.",
+  "fr": "Nouveau nom : pplz s’appelle désormais cardXchange, et la commande est cx."
+ },
+ {
+  "date": "2026-11-20",
+  "version": "0.1.49",
+  "area": "People",
+  "feature": "One editor in place of the card; add an event from the card.",
+  "de": "Ein Editor an Stelle der Karte; ein Ereignis von der Karte aus hinzufügen.",
+  "fr": "Un éditeur à la place de la fiche ; ajouter un événement depuis la fiche."
+ },
+ {
+  "date": "2026-11-21",
+  "version": "0.2.85",
+  "area": "Settings",
+  "feature": "About shows the version, the build number and the build date.",
+  "de": "„Über“ zeigt die Version, die Build-Nummer und das Build-Datum.",
+  "fr": "« À propos » affiche la version, le numéro de build et la date du build."
+ },
+ {
+  "date": "2026-11-21",
+  "version": "0.2.114",
+  "area": "People",
+  "feature": "Click an event in a person's history to open it.",
+  "de": "Ein Ereignis im Verlauf einer Person anklicken, um es zu öffnen.",
+  "fr": "Cliquer sur un événement dans l’historique d’une personne pour l’ouvrir."
+ },
+ {
+  "date": "2026-11-21",
+  "version": "0.1.70",
+  "area": "People",
+  "feature": "Delete a person; Recently Deleted keeps the person for a restore.",
+  "de": "Eine Person löschen; „Zuletzt gelöscht“ behält die Person zum Wiederherstellen.",
+  "fr": "Supprimer une personne ; « Suppressions récentes » la garde pour la restaurer."
+ },
+ {
+  "date": "2026-11-21",
+  "version": "0.1.71",
+  "area": "Command line",
+  "feature": "Delete, restore and purge a person from the command line.",
+  "de": "Eine Person über die Befehlszeile löschen, wiederherstellen und endgültig entfernen.",
+  "fr": "Supprimer, restaurer et effacer définitivement une personne depuis la ligne de commande."
+ },
+ {
+  "date": "2026-11-21",
+  "version": "0.2.104",
+  "area": "Settings",
+  "feature": "Me is your My Card from Contacts and is the same on all your devices.",
+  "de": "„Ich“ ist deine Karte aus Kontakte und ist auf allen deinen Geräten gleich.",
+  "fr": "« Moi » est votre fiche dans Contacts et elle est la même sur tous vos appareils."
+ },
+ {
+  "date": "2026-11-21",
+  "version": "0.1.77",
+  "area": "Settings",
+  "feature": "My Card: choose who you are and which fields you pass on.",
+  "de": "Meine Karte: wähle, wer du bist und welche Felder du weitergibst.",
+  "fr": "Ma fiche : choisissez qui vous êtes et quels champs vous partagez."
+ },
+ {
+  "date": "2026-11-21",
+  "version": "0.2.110",
+  "area": "People",
+  "feature": "On the Mac the card shows the contact’s note, read-only and without the history block.",
+  "de": "Auf dem Mac zeigt die Karte die Notiz des Kontakts, nur zum Lesen und ohne den Verlaufsblock.",
+  "fr": "Sur Mac, la fiche affiche la note du contact, en lecture seule et sans le bloc d’historique."
+ },
+ {
+  "date": "2026-11-21",
+  "version": "0.2.112",
+  "area": "App",
+  "feature": "On the Mac, What’s New opens in a window of its own, from the settings or the Help menu.",
+  "de": "Auf dem Mac öffnen sich die Neuigkeiten in einem eigenen Fenster, aus den Einstellungen oder dem Hilfe-Menü.",
+  "fr": "Sur Mac, les Nouveautés s’ouvrent dans leur propre fenêtre, depuis les réglages ou le menu Aide."
+ },
+ {
+  "date": "2026-11-21",
+  "version": "0.2.98",
+  "area": "Languages",
+  "feature": "The app speaks English, German and French; choose the language in the settings.",
+  "de": "Die App spricht Englisch, Deutsch und Französisch; wähle die Sprache in den Einstellungen.",
+  "fr": "L’app parle anglais, allemand et français ; choisissez la langue dans les réglages."
+ },
+ {
+  "date": "2026-11-21",
+  "version": "0.1.66",
+  "area": "Map",
+  "feature": "The map tells when locating ends and why no pin shows; it shows your own position.",
+  "de": "Die Karte sagt, wann die Verortung endet und warum keine Stecknadel erscheint; sie zeigt deine eigene Position.",
+  "fr": "La carte indique quand la localisation se termine et pourquoi aucune épingle n’apparaît ; elle affiche votre position."
+ },
+ {
+  "date": "2026-11-21",
+  "version": "0.2.107",
+  "area": "Settings",
+  "feature": "What’s New: this list of features, sorted as you like.",
+  "de": "Neuigkeiten: diese Liste der Funktionen, sortiert, wie du willst.",
+  "fr": "Nouveautés : cette liste des fonctionnalités, triée comme vous voulez."
+ },
+ {
+  "date": "2026-11-21",
+  "version": "0.2.97",
+  "area": "Map",
+  "feature": "Your own position shows above all pins and groups.",
+  "de": "Deine eigene Position erscheint über allen Stecknadeln und Gruppen.",
+  "fr": "Votre position s’affiche au-dessus de toutes les épingles et de tous les groupes."
+ },
+ {
+  "date": "2026-11-22",
+  "version": "0.2.164",
+  "area": "App",
+  "feature": "A second design in blue, chosen when the app is built; the version line names the design.",
+  "de": "Ein zweites Design in Blau, gewählt beim Bauen der App; die Versionszeile nennt das Design.",
+  "fr": "Un second design en bleu, choisi à la construction de l’app ; la ligne de version nomme le design."
+ },
+ {
+  "date": "2026-11-22",
+  "version": "0.2.157",
+  "area": "Settings",
+  "feature": "After a switch between your data and the test data, the app says that it must start again.",
+  "de": "Nach einem Wechsel zwischen deinen Daten und den Testdaten sagt die App, dass sie neu starten muss.",
+  "fr": "Après un passage entre vos données et les données de test, l’app indique qu’elle doit redémarrer."
+ },
+ {
+  "date": "2026-11-22",
+  "version": "0.2.123",
+  "area": "Command line",
+  "feature": "cx event edit removes all tags or links with --no-tags and --no-links.",
+  "de": "cx event edit entfernt mit --no-tags und --no-links alle Tags oder Links.",
+  "fr": "cx event edit retire tous les tags ou liens avec --no-tags et --no-links."
+ },
+ {
+  "date": "2026-11-22",
+  "version": "0.2.133",
+  "area": "People",
+  "feature": "Tags: a view of all tags with their number of people; a click on a tag shows those people.",
+  "de": "Tags: eine Ansicht aller Tags mit ihrer Anzahl an Personen; ein Klick auf einen Tag zeigt diese Personen.",
+  "fr": "Tags : une vue de tous les tags avec leur nombre de personnes ; un clic sur un tag affiche ces personnes."
+ },
+ {
+  "date": "2026-11-22",
+  "version": "0.2.133",
+  "area": "Settings",
+  "feature": "Test data: a set of invented people for screenshots and trials, apart from your own data.",
+  "de": "Testdaten: erfundene Personen für Screenshots und Versuche, getrennt von deinen eigenen Daten.",
+  "fr": "Données de test : des personnes inventées pour les captures d’écran et les essais, séparées de vos données."
+ },
+ {
+  "date": "2026-11-22",
+  "version": "0.2.167",
+  "area": "Contacts",
+  "feature": "The row that cardXchange writes into each contact is now called the person URL in all texts.",
+  "de": "Die Zeile, die cardXchange in jeden Kontakt schreibt, heißt in allen Texten jetzt Personen-URL.",
+  "fr": "La ligne que cardXchange écrit dans chaque contact s’appelle désormais l’URL de personne dans tous les textes."
+ },
+ {
+  "date": "2026-11-23",
+  "version": "0.2.169",
+  "area": "App",
+  "feature": "The website has a FAQ page and a What's New page; What's New is also in German and French.",
+  "de": "Die Website hat eine FAQ-Seite und eine Seite „Neuigkeiten“; die Neuigkeiten gibt es auch auf Deutsch und Französisch.",
+  "fr": "Le site a une page FAQ et une page « Nouveautés » ; les nouveautés existent aussi en allemand et en français."
+ }
+]

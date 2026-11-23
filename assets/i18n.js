@@ -50,6 +50,10 @@
       "nf7.t": "Mac, iPhone und iPad", "nf7.d": "Dieselben Personen und Historien auf jedem Gerät.",
       "nf8.t": "Kein Konto, keine Werbung", "nf8.d": "Keine Anmeldung, kein Tracking. Auf Deutsch, Englisch und Französisch.",
       "foot.deployed": "Veröffentlicht am", "foot.privacy": "Datenschutz", "foot.imprint": "Impressum",
+      "foot.whatsnew": "Neuigkeiten", "foot.faq": "FAQ", "meta.whatsnew": "Neuigkeiten · cardXchange", "meta.faq": "FAQ · cardXchange",
+      "wn.kicker": "Neuigkeiten", "wn.title": "Neu in cardXchange",
+      "wn.lead": "Jede Funktion der Apps, mit dem Datum und der Version, in der sie kam. Klicke auf eine Spaltenüberschrift, um zu sortieren.",
+      "wn.date": "Datum", "wn.version": "Version", "wn.area": "Bereich", "wn.feature": "Funktion", "wn.empty": "Die Liste ist nicht verfügbar.",
       "meta.privacy": "Datenschutz · cardXchange", "meta.imprint": "Impressum · cardXchange", "meta.404": "Seite nicht gefunden · cardXchange", "meta.card": "Eine Karte für dich · cardXchange"
     },
     fr: {
@@ -96,6 +100,10 @@
       "nf7.t": "Mac, iPhone et iPad", "nf7.d": "Les mêmes personnes et le même historique sur chaque appareil.",
       "nf8.t": "Pas de compte, pas de pub", "nf8.d": "Pas d’inscription, pas de pistage. En français, anglais et allemand.",
       "foot.deployed": "Publié le", "foot.privacy": "Confidentialité", "foot.imprint": "Mentions légales",
+      "foot.whatsnew": "Nouveautés", "foot.faq": "FAQ", "meta.whatsnew": "Nouveautés · cardXchange", "meta.faq": "FAQ · cardXchange",
+      "wn.kicker": "Nouveautés", "wn.title": "Nouveau dans cardXchange",
+      "wn.lead": "Chaque fonctionnalité des apps, avec la date et la version où elle est arrivée. Cliquez sur un en-tête de colonne pour trier.",
+      "wn.date": "Date", "wn.version": "Version", "wn.area": "Domaine", "wn.feature": "Fonctionnalité", "wn.empty": "La liste n’est pas disponible.",
       "meta.privacy": "Confidentialité · cardXchange", "meta.imprint": "Mentions légales · cardXchange", "meta.404": "Page introuvable · cardXchange", "meta.card": "Une carte pour vous · cardXchange"
     }
   };
