@@ -100,7 +100,7 @@ nav.top a { color: var(--muted); }
 .arg.flip { grid-template-columns: auto 1fr; }
 .arg.flip .text { order: 2; }
 .arg > * { min-width: 0; }
-.arg .num { font: 700 64px/1 var(--wm); -webkit-text-stroke: 1.5px var(--tint); color: transparent; }
+.arg .num { font: 700 64px/1 var(--body); color: var(--tint); }
 .arg h2 { font-size: 34px; margin: 10px 0 10px; letter-spacing: -.01em; }
 .arg p { font-size: 18px; color: var(--muted); margin: 0; max-width: 440px; }
 
