@@ -374,5 +374,13 @@
   "feature": "The website has a FAQ page and a What's New page; What's New is also in German and French.",
   "de": "Die Website hat eine FAQ-Seite und eine Seite „Neuigkeiten“; die Neuigkeiten gibt es auch auf Deutsch und Französisch.",
   "fr": "Le site a une page FAQ et une page « Nouveautés » ; les nouveautés existent aussi en allemand et en français."
+ },
+ {
+  "date": "2026-11-24",
+  "version": "0.2.175",
+  "area": "Settings",
+  "feature": "Show Code on My Card makes a QR code for one person, valid for 24 hours; the chosen fields now sync to all your devices.",
+  "de": "„Code zeigen“ unter „Meine Karte“ erstellt einen QR-Code für eine Person, 24 Stunden gültig; die gewählten Felder werden auf allen Geräten abgeglichen.",
+  "fr": "« Afficher le code » sous « Ma fiche » crée un code QR pour une personne, valable 24 heures ; les champs choisis se synchronisent sur tous vos appareils."
  }
 ]
