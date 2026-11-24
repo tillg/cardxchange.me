@@ -377,6 +377,22 @@
  },
  {
   "date": "2026-11-24",
+  "version": "0.2.178",
+  "area": "Contacts",
+  "feature": "A changed card shows as a card update on the person; you choose each field that goes into the contact.",
+  "de": "Eine geänderte Karte erscheint als Kartenänderung bei der Person; du wählst jedes Feld, das in den Kontakt kommt.",
+  "fr": "Une carte modifiée apparaît comme mise à jour de la carte chez la personne ; vous choisissez chaque champ qui va dans le contact."
+ },
+ {
+  "date": "2026-11-24",
+  "version": "0.2.177",
+  "area": "Contacts",
+  "feature": "A scanned card code shows the card; you add it as a new contact or to an existing contact and choose each change.",
+  "de": "Ein gescannter Kartencode zeigt die Karte; du fügst sie als neuen Kontakt oder zu einem vorhandenen Kontakt hinzu und wählst jede Änderung.",
+  "fr": "Un code de carte scanné affiche la carte ; vous l’ajoutez comme nouveau contact ou à un contact existant et choisissez chaque modification."
+ },
+ {
+  "date": "2026-11-24",
   "version": "0.2.175",
   "area": "Settings",
   "feature": "Show Code on My Card makes a QR code for one person, valid for 24 hours; the chosen fields now sync to all your devices.",
