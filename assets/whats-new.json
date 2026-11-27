@@ -406,5 +406,21 @@
   "feature": "A card update shows the old value crossed out above the new one; a check mark chooses each field, Update Contact applies the choice, and Later keeps it for later.",
   "de": "Eine Kartenänderung zeigt den alten Wert durchgestrichen über dem neuen; ein Häkchen wählt jedes Feld, „Kontakt aktualisieren“ übernimmt die Wahl, „Später“ lässt sie warten.",
   "fr": "Une mise à jour de carte montre l’ancienne valeur barrée au-dessus de la nouvelle ; une coche choisit chaque champ, « Mettre à jour » applique le choix, « Plus tard » le laisse en attente."
+ },
+ {
+  "date": "2026-11-27",
+  "version": "0.2.186",
+  "area": "Contacts",
+  "feature": "Either side ends a cardXchange link, on the person card or under cardXchange Links in the settings; the contact data stays.",
+  "de": "Jede Seite beendet eine cardXchange-Verbindung, auf der Personenkarte oder unter „cardXchange-Verbindungen“ in den Einstellungen; die Kontaktdaten bleiben.",
+  "fr": "Chaque côté peut mettre fin à un lien cardXchange, sur la fiche de la personne ou sous « Liens cardXchange » dans les réglages ; les données de contact restent."
+ },
+ {
+  "date": "2026-11-27",
+  "version": "0.2.186",
+  "area": "Contacts",
+  "feature": "After you add a card, you send your own card back; the other person sees \"… sent their card back\" above the list.",
+  "de": "Nach dem Hinzufügen einer Karte schickst du deine eigene Karte zurück; die andere Person sieht „… hat die eigene Karte zurückgeschickt“ über der Liste.",
+  "fr": "Après avoir ajouté une carte, vous renvoyez la vôtre ; l’autre personne voit « … a renvoyé sa carte » au-dessus de la liste."
  }
 ]
