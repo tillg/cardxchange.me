@@ -438,5 +438,13 @@
   "feature": "After you add a card, you send your own card back; the other person sees \"… sent their card back\" above the list.",
   "de": "Nach dem Hinzufügen einer Karte schickst du deine eigene Karte zurück; die andere Person sieht „… hat die eigene Karte zurückgeschickt“ über der Liste.",
   "fr": "Après avoir ajouté une carte, vous renvoyez la vôtre ; l’autre personne voit « … a renvoyé sa carte » au-dessus de la liste."
+ },
+ {
+  "date": "2026-11-28",
+  "version": "0.2.191",
+  "area": "Settings",
+  "feature": "Nickname and birthday can go on your card; both are off at first.",
+  "de": "Spitzname und Geburtstag können auf deine Karte; beide sind zuerst aus.",
+  "fr": "Le surnom et la date de naissance peuvent figurer sur votre carte ; les deux sont désactivés au départ."
  }
 ]
