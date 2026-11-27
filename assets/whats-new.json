@@ -441,6 +441,14 @@
  },
  {
   "date": "2026-11-28",
+  "version": "0.2.194",
+  "area": "Contacts",
+  "feature": "Fields on a cardXchange link changes what that one person gets from your card.",
+  "de": "„Felder“ an einer cardXchange-Verbindung ändert, was diese eine Person von deiner Karte bekommt.",
+  "fr": "« Champs » sur un lien cardXchange change ce que cette personne reçoit de votre carte."
+ },
+ {
+  "date": "2026-11-28",
   "version": "0.2.191",
   "area": "Settings",
   "feature": "Nickname and birthday can go on your card; both are off at first.",
