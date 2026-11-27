@@ -417,6 +417,14 @@
  },
  {
   "date": "2026-11-27",
+  "version": "0.2.189",
+  "area": "Settings",
+  "feature": "When you choose another person as Me, cardXchange asks before your cardXchange links pass on that person's card.",
+  "de": "Wählst du eine andere Person als „Ich“, fragt cardXchange, bevor deine cardXchange-Verbindungen deren Karte weitergeben.",
+  "fr": "Si vous choisissez une autre personne comme « Moi », cardXchange demande avant que vos liens cardXchange transmettent sa carte."
+ },
+ {
+  "date": "2026-11-27",
   "version": "0.2.186",
   "area": "Contacts",
   "feature": "Either side ends a cardXchange link, on the person card or under cardXchange Links in the settings; the contact data stays.",
