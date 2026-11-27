@@ -401,6 +401,14 @@
  },
  {
   "date": "2026-11-27",
+  "version": "0.2.188",
+  "area": "Contacts",
+  "feature": "A card update for a deleted contact offers Add as New Contact or Stop Receiving.",
+  "de": "Eine Kartenänderung für einen gelöschten Kontakt bietet „Als neuen Kontakt hinzufügen“ oder „Nicht mehr empfangen“.",
+  "fr": "Une mise à jour de carte pour un contact supprimé propose « Ajouter comme nouveau contact » ou « Ne plus recevoir »."
+ },
+ {
+  "date": "2026-11-27",
   "version": "0.2.185",
   "area": "Contacts",
   "feature": "A card update shows the old value crossed out above the new one; a check mark chooses each field, Update Contact applies the choice, and Later keeps it for later.",
