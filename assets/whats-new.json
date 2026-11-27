@@ -398,5 +398,13 @@
   "feature": "Show Code on My Card makes a QR code for one person, valid for 24 hours; the chosen fields now sync to all your devices.",
   "de": "„Code zeigen“ unter „Meine Karte“ erstellt einen QR-Code für eine Person, 24 Stunden gültig; die gewählten Felder werden auf allen Geräten abgeglichen.",
   "fr": "« Afficher le code » sous « Ma fiche » crée un code QR pour une personne, valable 24 heures ; les champs choisis se synchronisent sur tous vos appareils."
+ },
+ {
+  "date": "2026-11-27",
+  "version": "0.2.185",
+  "area": "Contacts",
+  "feature": "A card update shows the old value crossed out above the new one; a check mark chooses each field, Update Contact applies the choice, and Later keeps it for later.",
+  "de": "Eine Kartenänderung zeigt den alten Wert durchgestrichen über dem neuen; ein Häkchen wählt jedes Feld, „Kontakt aktualisieren“ übernimmt die Wahl, „Später“ lässt sie warten.",
+  "fr": "Une mise à jour de carte montre l’ancienne valeur barrée au-dessus de la nouvelle ; une coche choisit chaque champ, « Mettre à jour » applique le choix, « Plus tard » le laisse en attente."
  }
 ]
