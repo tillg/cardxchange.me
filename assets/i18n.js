@@ -1,8 +1,10 @@
-// Languages of the website: English (in the HTML), German and French (below).
-// The first visit takes the language from the browser; the menu at the top right changes it,
-// and the choice is kept in the browser. ?lang=de|fr|en in the address wins over both.
-// Elements with data-i18n get their text from the dictionary; blocks with data-lang="xx"
-// (long texts on the privacy and imprint pages) are shown only for their language.
+// Languages of the website: English (in the HTML), German and French (below) (docs/system/architecture.md, Website).
+// On the published site each page has one address per language: scripts/website-pages.py writes the German
+// and French pages from this dictionary, with links rel="alternate" hreflang to the other languages.
+// On such a page the menu at the top right opens the page in the other language, and keeps the choice in the browser.
+// An English page opens the page in ?lang=de|fr, else in the kept choice, else in the browser language.
+// A page without those links (404.html, or Website/site/ without the script) changes its text here instead:
+// elements with data-i18n get their text from the dictionary; blocks with data-lang="xx" are shown only for their language.
 (function () {
   const LANGS = ["en", "de", "fr"];
   const T = {
@@ -54,7 +56,10 @@
       "wn.kicker": "Neuigkeiten", "wn.title": "Neu in cardXchange",
       "wn.lead": "Jede Funktion der Apps, mit dem Datum und der Version, in der sie kam. Klicke auf eine Spaltenüberschrift, um zu sortieren.",
       "wn.date": "Datum", "wn.version": "Version", "wn.area": "Bereich", "wn.feature": "Funktion", "wn.empty": "Die Liste ist nicht verfügbar.",
-      "meta.privacy": "Datenschutz · cardXchange", "meta.imprint": "Impressum · cardXchange", "meta.404": "Seite nicht gefunden · cardXchange", "meta.card": "Eine Karte für dich · cardXchange"
+      "meta.privacy": "Datenschutz · cardXchange", "meta.imprint": "Impressum · cardXchange", "meta.404": "Seite nicht gefunden · cardXchange", "meta.card": "Eine Karte für dich · cardXchange",
+      "meta.faqdesc": "Fragen und Antworten zum Kartentausch mit cardXchange: welcher Kontakt die Karte bekommt, welche Felder sich ändern und was du entscheidest.",
+      "meta.privacydesc": "cardXchange speichert deine Daten auf deinen Geräten und in deinem privaten iCloud. Diese Seite sagt, welche Daten die Website und die App verarbeiten.",
+      "meta.whatsnewdesc": "Die Funktionen von cardXchange für Mac, iPhone und iPad, mit dem Datum und der Version, in der sie kamen."
     },
     fr: {
       "meta.title": "cardXchange · La carte de visite qui se met à jour toute seule",
@@ -104,27 +109,55 @@
       "wn.kicker": "Nouveautés", "wn.title": "Nouveau dans cardXchange",
       "wn.lead": "Chaque fonctionnalité des apps, avec la date et la version où elle est arrivée. Cliquez sur un en-tête de colonne pour trier.",
       "wn.date": "Date", "wn.version": "Version", "wn.area": "Domaine", "wn.feature": "Fonctionnalité", "wn.empty": "La liste n’est pas disponible.",
-      "meta.privacy": "Confidentialité · cardXchange", "meta.imprint": "Mentions légales · cardXchange", "meta.404": "Page introuvable · cardXchange", "meta.card": "Une carte pour vous · cardXchange"
+      "meta.privacy": "Confidentialité · cardXchange", "meta.imprint": "Mentions légales · cardXchange", "meta.404": "Page introuvable · cardXchange", "meta.card": "Une carte pour vous · cardXchange",
+      "meta.faqdesc": "Questions et réponses sur l’échange de cartes de visite avec cardXchange : quel contact reçoit la carte, quels champs changent et ce que vous décidez.",
+      "meta.privacydesc": "cardXchange garde vos données sur vos appareils et dans votre iCloud privé. Cette page indique quelles données le site web et l’app traitent.",
+      "meta.whatsnewdesc": "Les fonctionnalités de cardXchange pour Mac, iPhone et iPad, avec la date et la version où elles sont arrivées."
     }
   };
+
+  const select = document.getElementById("lang");
+  const kept = () => { try { const s = localStorage.getItem("cx-lang"); return LANGS.includes(s) ? s : null; } catch (e) { return null; } };
+  const keep = lang => { try { localStorage.setItem("cx-lang", lang); } catch (e) {} };
+  function browser() {
+    for (const l of navigator.languages || [navigator.language || "en"]) {
+      const base = String(l).toLowerCase().slice(0, 2);
+      if (LANGS.includes(base)) return base;
+    }
+    return "en";
+  }
+
+  // the path of the page in each language, from the links that scripts/website-pages.py wrote
+  const pages = {};
+  document.querySelectorAll('link[rel="alternate"][hreflang]').forEach(l => {
+    if (LANGS.includes(l.hreflang)) pages[l.hreflang] = new URL(l.href).pathname;
+  });
+  if (pages.en) {
+    const lang = document.documentElement.lang;
+    const params = new URLSearchParams(location.search);
+    const q = params.get("lang");
+    params.delete("lang");
+    const go = target => location.replace(pages[target] + (params.size ? "?" + params : "") + location.hash);
+    if (LANGS.includes(q) && q !== lang) return go(q);
+    if (lang === "en" && !LANGS.includes(q)) {
+      const wanted = kept() || browser();
+      if (wanted !== "en") return go(wanted);
+    }
+    if (select) select.addEventListener("change", () => { keep(select.value); go(select.value); });
+    return;
+  }
 
   const textEls = [...document.querySelectorAll("[data-i18n]")];
   const contentEls = [...document.querySelectorAll("[data-i18n-content]")];
   textEls.forEach(el => { el.dataset.en = el.innerHTML; });
   contentEls.forEach(el => { el.dataset.en = el.getAttribute("content"); });
-  const select = document.getElementById("lang");
   const titleKey = document.documentElement.dataset.titleKey;
   const enTitle = document.title;
 
   function pick() {
     const q = new URLSearchParams(location.search).get("lang");
     if (LANGS.includes(q)) return q;
-    try { const s = localStorage.getItem("cx-lang"); if (LANGS.includes(s)) return s; } catch (e) {}
-    for (const l of navigator.languages || [navigator.language || "en"]) {
-      const base = String(l).toLowerCase().slice(0, 2);
-      if (LANGS.includes(base)) return base;
-    }
-    return "en";
+    return kept() || browser();
   }
 
   function apply(lang) {
@@ -138,7 +171,7 @@
   }
 
   if (select) select.addEventListener("change", () => {
-    try { localStorage.setItem("cx-lang", select.value); } catch (e) {}
+    keep(select.value);
     apply(select.value);
   });
   apply(pick());

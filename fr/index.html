@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-i18n="meta.title">cardXchange · La carte de visite qui se met à jour toute seule</title>
+<meta name="description" data-i18n-content="meta.desc" content="Quand le numéro, l’adresse ou le poste d’un contact change, la modification arrive dans vos Contacts Apple. Vous décidez des modifications appliquées. Pour Mac, iPhone et iPad.">
+<link rel="canonical" href="https://cardxchange.me/fr/">
+<link rel="alternate" hreflang="en" href="https://cardxchange.me/">
+<link rel="alternate" hreflang="de" href="https://cardxchange.me/de/">
+<link rel="alternate" hreflang="fr" href="https://cardxchange.me/fr/">
+<link rel="alternate" hreflang="x-default" href="https://cardxchange.me/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="cardXchange">
+<meta property="og:title" content="cardXchange · La carte de visite qui se met à jour toute seule">
+<meta property="og:description" content="Quand le numéro, l’adresse ou le poste d’un contact change, la modification arrive dans vos Contacts Apple. Vous décidez des modifications appliquées. Pour Mac, iPhone et iPad.">
+<meta property="og:url" content="https://cardxchange.me/fr/">
+<meta property="og:image" content="https://cardxchange.me/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="de_DE">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://cardxchange.me/#website", "name": "cardXchange", "url": "https://cardxchange.me/", "inLanguage": ["en", "de", "fr"]}, {"@type": "SoftwareApplication", "name": "cardXchange", "url": "https://cardxchange.me/fr/", "description": "Quand le numéro, l’adresse ou le poste d’un contact change, la modification arrive dans vos Contacts Apple. Vous décidez des modifications appliquées. Pour Mac, iPhone et iPad.", "inLanguage": "fr", "image": "https://cardxchange.me/assets/og.png", "applicationCategory": "BusinessApplication", "operatingSystem": "macOS, iOS, iPadOS"}]}</script>
+<link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+<link rel="preload" href="../assets/fonts/syncopate-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/analytics.js"></script>
+</head>
+<body>
+<aside class="rail">
+  <a href="./" aria-label="cardXchange"><span class="vwm" aria-hidden="true">CARD<span class="x">X</span>CHANGE<span class="me">.ME</span></span></a>
+  <img src="../assets/logo.svg" alt="">
+</aside>
+<main>
+  <div class="wrap">
+    <nav class="top">
+      <a class="opt" href="#functions" data-i18n="nav.functions">Fonctions</a>
+      <a class="opt" href="#why" data-i18n="nav.why">Pourquoi cardXchange</a>
+      <label class="lang"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg>
+        <span hidden data-i18n="nav.lang">Langue</span>
+        <select id="lang" aria-label="Langue"><option value="en">English</option><option value="de">Deutsch</option><option value="fr" selected>Français</option></select></label>
+    </nav>
+    <section class="hero">
+      <div>
+        <div class="kicker" data-i18n="hero.kicker">Disponible au lancement sur l’App Store</div>
+        <h1 data-i18n="hero.title">La carte de visite qui se <em>met à jour</em> toute seule.</h1>
+        <p data-i18n="hero.text">Quand le numéro, l’adresse ou le poste d’un contact change, la modification arrive dans vos Contacts Apple. Vous décidez des modifications appliquées.</p>
+        <div class="cta"><span class="btn fill" data-i18n="cta.store">Bientôt sur l’App Store</span><a class="btn line" href="#functions" data-i18n="cta.how">Comment ça marche</a></div>
+      </div>
+      <div class="upd" aria-hidden="true">
+        <div class="h"><i>BN</i><div><span data-i18n="upd.title">Ben New a mis à jour sa carte</span><small data-i18n="upd.sub">3 modifications · aujourd’hui</small></div></div>
+        <div class="c"><span data-i18n="f.company">Entreprise</span><del>Example Ltd</del><ins>Sample GmbH</ins><b>✓</b></div>
+        <div class="c"><span data-i18n="f.job">Poste</span><del data-i18n="v.engineer">Ingénieur</del><ins data-i18n="v.head">Directeur technique</ins><b>✓</b></div>
+        <div class="c"><span data-i18n="f.mobile">Portable</span><del>+49 151 …</del><ins>+49 160 …</ins><b class="off">–</b></div>
+        <div class="b"><span data-i18n="upd.later">Plus tard</span><span class="go" data-i18n="upd.update">Mettre à jour</span></div>
+      </div>
+    </section>
+  </div>
+
+  <section class="args" id="functions">
+    <div class="switch"><div class="seg" role="group" aria-label="Device">
+      <button type="button" data-d="phone" aria-pressed="true">iPhone</button><button type="button" data-d="pad" aria-pressed="false">iPad</button><button type="button" data-d="mac" aria-pressed="false">Mac</button>
+    </div></div>
+    <div class="wrap">
+
+      <div class="arg flip"><div class="text"><div class="num">01</div><h2><span data-i18n="a1.title">La carte se met à jour toute seule.</span> <span class="soon" data-i18n="soon">Bientôt</span></h2>
+        <p data-i18n="a1.text">Échangez vos cartes une fois, avec un code QR. Quand Ben change de poste, son nouveau titre vous arrive comme mise à jour. Vous l’acceptez, ou non. Rien ne change dans vos Contacts sans vous.</p></div>
+        <div class="device" data-sel="Ben New" aria-hidden="true"><div class="main">
+          <div class="nav"><span data-i18n="upd.later">Plus tard</span><b data-i18n="s1.title">Mise à jour</b><span></span></div>
+          <div class="sh" data-i18n="s1.changed">Ben New a modifié sa carte</div>
+          <div class="list"><div class="row"><span class="f"><span data-i18n="f.company">Entreprise</span><br><del>Example Ltd</del> <ins>Sample GmbH</ins></span><span class="ok">✓</span></div>
+            <div class="row"><span class="f"><span data-i18n="f.job">Poste</span><br><del data-i18n="v.engineer">Ingénieur</del> <ins data-i18n="v.head">Directeur technique</ins></span><span class="ok">✓</span></div>
+            <div class="row"><span class="f"><span data-i18n="f.mobile">Portable</span><br><del>+49 151 …</del> <ins>+49 160 …</ins></span><span class="ok off">○</span></div></div>
+          <div class="sh" data-i18n="s1.after">Votre contact après la mise à jour</div>
+          <div class="list"><div class="row"><span class="f">Ben New<br><b><span data-i18n="v.head">Directeur technique</span> · Sample GmbH</b></span></div></div>
+          <div class="go" data-i18n="upd.update">Mettre à jour</div></div></div></div>
+
+      <div class="arg"><div class="text"><div class="num">02</div><h2 data-i18n="a2.title">Un historique pour chaque personne.</h2>
+        <p data-i18n="a2.text">Chaque rencontre, chaque appel, chaque événement partagé, du plus récent au plus ancien, avec lieux, sujets et suivis.</p></div>
+        <div class="device" data-sel="Ben New" aria-hidden="true"><div class="main">
+          <div class="head"><div class="nav"><span data-i18n="s.back">‹ Personnes</span><span data-i18n="s.edit">Modifier</span></div><div class="ini">BN</div><div class="name">Ben New</div><div class="sub"><span data-i18n="v.head">Directeur technique</span> · Sample GmbH</div></div>
+          <div class="sh" data-i18n="s2.history">Historique · vu 3 fois</div>
+          <div class="list"><div class="row"><span class="d" data-i18n="s.today">Aujourd’hui</span><span><b data-i18n="s2.call">Appel</b><br><span class="m" data-i18n="s2.newjob">Le nouveau poste</span></span></div>
+            <div class="row"><span class="d" data-i18n="s2.jun">2 juin</span><span><b data-i18n="s2.lunch">Déjeuner</b><br><span class="m" data-i18n="s2.withanna">Cologne · avec Anna Example</span></span></div>
+            <div class="row"><span class="d" data-i18n="s2.mar">14 mars</span><span><b data-i18n="s2.fair">Salon</b><br><span class="m" data-i18n="s2.howmet">Francfort · notre rencontre</span></span></div></div>
+          <div class="sh" data-i18n="s2.followups">Suivis</div><div class="list"><div class="row" data-i18n="s2.book">○ Envoyer le titre du livre</div></div></div></div></div>
+
+      <div class="arg flip"><div class="text"><div class="num">03</div><h2 data-i18n="a3.title">Noté en quelques secondes.</h2>
+        <p data-i18n="a3.text">« Je viens de déjeuner avec Ben et Anna. » Deux lettres par nom, un geste. L’heure et le type sont déjà remplis.</p></div>
+        <div class="device" data-sel="Anna Example" aria-hidden="true"><div class="main">
+          <div class="nav"><span data-i18n="s.cancel">Annuler</span><b data-i18n="s3.title">Nouvel événement</b><span data-i18n="s.save">Enregistrer</span></div>
+          <div class="sh" data-i18n="s3.people">Personnes</div>
+          <div style="padding:0 8px 4px"><span class="chip">Ben New</span><span class="chip">Anna Example</span></div>
+          <div class="list"><div class="row"><span class="f"><b>an</b>▏</span></div><div class="row">Anna Example</div><div class="row">Andreas Sample</div></div>
+          <div class="sh" data-i18n="s3.event">Événement</div>
+          <div class="list"><div class="row f"><span data-i18n="s3.format">Type</span>&nbsp;<b data-i18n="s3.live">Rencontre</b></div><div class="row f"><span data-i18n="s3.when">Quand</span>&nbsp;<b data-i18n="s3.time">Aujourd’hui, 13:00</b></div><div class="row f"><span data-i18n="s3.place">Lieu</span>&nbsp;<b>Köln</b></div></div></div></div></div>
+
+      <div class="arg"><div class="text"><div class="num">04</div><h2 data-i18n="a4.title">Capturer un profil.</h2>
+        <p data-i18n="a4.text">Sur un salon, partagez un profil LinkedIn avec cardXchange ou scannez la carte de visite. L’appareil la lit et crée le contact. Puis il demande où vous vous êtes rencontrés.</p></div>
+        <div class="device" data-sel="Clara Sample" aria-hidden="true"><div class="main">
+          <div class="nav"><span data-i18n="s.cancel">Annuler</span><b data-i18n="s4.title">Capture</b><span data-i18n="s.save">Enregistrer</span></div>
+          <div class="sh" data-i18n="s4.read">Lu dans la capture d’écran</div>
+          <div class="list"><div class="row f"><span data-i18n="s4.name">Nom</span>&nbsp;<b>Clara Sample</b></div><div class="row f"><span data-i18n="s4.job">Poste</span>&nbsp;<b data-i18n="v.journalist">Journaliste</b></div><div class="row f"><span data-i18n="f.company">Entreprise</span>&nbsp;<b>Example News</b></div><div class="row f">LinkedIn&nbsp;<b style="color:#0099CC">in/clara-sample</b></div></div>
+          <div class="sh" data-i18n="s4.where">Où vous êtes-vous rencontrés ?</div>
+          <div class="list"><div class="row sel" data-i18n="s4.fair">Salon, Francfort · aujourd’hui</div><div class="row" data-i18n="s4.new">Nouvel événement…</div></div>
+          <div class="go" data-i18n="s4.add">Ajouter Clara Sample</div></div></div></div>
+
+      <div class="arg flip"><div class="text"><div class="num">05</div><h2 data-i18n="a5.title">Tout le monde sur une carte.</h2>
+        <p data-i18n="a5.text">Chaque adresse est une épingle, au domicile et au travail. À Cologne la semaine prochaine ? Voyez qui habite près.</p></div>
+        <div class="device" data-sel="" aria-hidden="true"><div class="main">
+          <div class="map"><svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice"><path d="M0 180 C100 150 220 230 400 190" stroke="#fff" stroke-width="14" fill="none"/><path d="M150 0 C170 120 120 300 200 500" stroke="#cfe3ec" stroke-width="24" fill="none"/><path d="M0 330 L400 370" stroke="#fff" stroke-width="8"/>
+            <g fill="#0099CC" stroke="#fff" stroke-width="2"><path d="M80 150c-8-10-13-15-13-21a13 13 0 0 1 26 0c0 6-5 11-13 21z"/><path d="M270 230c-8-10-13-15-13-21a13 13 0 0 1 26 0c0 6-5 11-13 21z"/><path d="M170 300c-8-10-13-15-13-21a13 13 0 0 1 26 0c0 6-5 11-13 21z"/><path d="M320 400c-8-10-13-15-13-21a13 13 0 0 1 26 0c0 6-5 11-13 21z"/><path d="M110 420c-8-10-13-15-13-21a13 13 0 0 1 26 0c0 6-5 11-13 21z"/></g>
+            <circle cx="220" cy="250" r="20" fill="#34C759" opacity=".2"/><circle cx="220" cy="250" r="7" fill="#34C759" stroke="#fff" stroke-width="3"/></svg>
+            <div class="cap" data-i18n="s5.near">12 personnes près de Cologne</div></div></div></div></div>
+
+    </div>
+  </section>
+
+  <section class="block" id="why"><div class="wrap">
+    <div class="kicker" data-i18n="why.kicker">Pourquoi cardXchange</div>
+    <h2 data-i18n="why.title">S’intègre à votre monde Apple.</h2>
+    <p class="lead" data-i18n="why.lead">Pas de nouveau compte, pas de nouveau carnet d’adresses, pas de serveur entre les deux.</p>
+    <div class="nf">
+      <div><b data-i18n="nf1.t">Tout dans <em>votre</em> iCloud</b><span data-i18n="nf1.d">Vos données se synchronisent par votre iCloud privé. Nous n’avons aucun serveur.</span></div>
+      <div><b data-i18n="nf2.t">Contacts Apple toujours à jour</b><span data-i18n="nf2.d">Les mises à jour acceptées vont directement dans Contacts. Vous utilisez Contacts comme avant.</span></div>
+      <div><b data-i18n="nf3.t">Vous décidez</b><span data-i18n="nf3.d">Rien ne change dans vos Contacts sans vous. Chacun peut mettre fin à un lien.</span></div>
+      <div><b data-i18n="nf4.t">Rien à importer</b><span data-i18n="nf4.d">cardXchange fonctionne avec le carnet d’adresses que vous avez déjà.</span></div>
+      <div><b data-i18n="nf5.t">Lu sur votre appareil</b><span data-i18n="nf5.d">Captures d’écran, cartes de visite et visages sont lus sur l’appareil.</span></div>
+      <div><b data-i18n="nf6.t">Vos notes restent à vous</b><span data-i18n="nf6.d">Le texte des notes ne quitte jamais l’appareil. cardXchange ne modifie que ce qu’il a écrit.</span></div>
+      <div><b data-i18n="nf7.t">Mac, iPhone et iPad</b><span data-i18n="nf7.d">Les mêmes personnes et le même historique sur chaque appareil.</span></div>
+      <div><b data-i18n="nf8.t">Pas de compte, pas de pub</b><span data-i18n="nf8.d">Pas d’inscription, pas de pistage. En français, anglais et allemand.</span></div>
+    </div>
+  </div></section>
+</main>
+<footer class="site"><div class="wrap"><span class="wordmark">CARD<span class="x">X</span>CHANGE<span class="me">.ME</span></span>
+  <span class="deployed"><span data-i18n="foot.deployed">Publié le</span> <time data-deployed datetime="2026-11-28T10:03:04+01:00">2026-11-28, 10:03</time></span>
+  <span><a href="whats-new.html" data-i18n="foot.whatsnew">Nouveautés</a> · <a href="faq.html" data-i18n="foot.faq">FAQ</a> · <a href="privacy.html" data-i18n="foot.privacy">Confidentialité</a> · <a href="imprint.html" data-i18n="foot.imprint">Mentions légales</a></span></div></footer>
+<template id="side"><div class="t" data-i18n="s3.people">Personnes</div><div class="s" data-i18n="s.search">Rechercher</div></template>
+<script src="../assets/site.js"></script>
+<script src="../assets/i18n.js"></script>
+</body>
+</html>

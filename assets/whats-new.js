@@ -71,7 +71,7 @@
   const select = document.getElementById("lang");
   if (select) select.addEventListener("change", render);
 
-  fetch("assets/whats-new.json")
+  fetch("/assets/whats-new.json")
     .then(response => { if (!response.ok) throw new Error(response.status); return response.json(); })
     .then(data => { rows = data; render(); })
     .catch(() => { table.hidden = true; empty.hidden = false; });

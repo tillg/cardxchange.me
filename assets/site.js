@@ -4,9 +4,11 @@
   const devices = document.querySelectorAll(".device");
   if (!devices.length) return;
   const people = [["AE", "Anna Example"], ["BN", "Ben New"], ["CS", "Clara Sample"], ["DM", "David Muster"], ["EB", "Eva Beispiel"]];
+  // The header of the list is a template in the page, so that scripts/website-pages.py translates it.
+  const header = document.getElementById("side").innerHTML;
   devices.forEach(d => {
     const main = d.querySelector(".main"), sel = d.dataset.sel;
-    const side = `<div class="side"><div class="t" data-i18n="s3.people">People</div><div class="s" data-i18n="s.search">Search</div>` +
+    const side = `<div class="side">${header}` +
       people.map(([i, n]) => `<div class="p ${n === sel ? "on" : ""}"><span class="av">${i}</span>${n}</div>`).join("") + `</div>`;
     d.innerHTML = `<div class="bar"><span>9:41</span><span class="island"></span><span>100%</span><div class="lights"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i></div></div><div class="scr">${side}</div>`;
     d.querySelector(".scr").appendChild(main);
