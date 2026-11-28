@@ -465,6 +465,14 @@
  },
  {
   "date": "2026-11-28",
+  "version": "0.2.204",
+  "area": "Map",
+  "feature": "The map keeps the region you moved it to for 10 minutes.",
+  "de": "Die Karte behält 10 Minuten lang den Ausschnitt, zu dem du sie bewegt hast.",
+  "fr": "La carte garde pendant 10 minutes la zone où vous l’avez déplacée."
+ },
+ {
+  "date": "2026-11-28",
   "version": "0.2.191",
   "area": "Settings",
   "feature": "Nickname and birthday can go on your card; both are off at first.",
@@ -481,10 +489,26 @@
  },
  {
   "date": "2026-11-28",
+  "version": "0.2.204",
+  "area": "Map",
+  "feature": "A group of people at one address shows their names on the map.",
+  "de": "Eine Gruppe von Personen mit derselben Adresse zeigt auf der Karte ihre Namen.",
+  "fr": "Un groupe de personnes à la même adresse affiche leurs noms sur la carte."
+ },
+ {
+  "date": "2026-11-28",
   "version": "0.2.200",
   "area": "People",
   "feature": "The search also finds people by company, city and country.",
   "de": "Die Suche findet Personen auch über Firma, Stadt und Land.",
   "fr": "La recherche trouve aussi les personnes par entreprise, ville et pays."
+ },
+ {
+  "date": "2026-11-28",
+  "version": "0.2.204",
+  "area": "Map",
+  "feature": "The search of the map finds a place when it finds no person.",
+  "de": "Die Suche der Karte findet einen Ort, wenn sie keine Person findet.",
+  "fr": "La recherche de la carte trouve un lieu quand elle ne trouve aucune personne."
  }
 ]
