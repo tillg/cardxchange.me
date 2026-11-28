@@ -441,6 +441,14 @@
  },
  {
   "date": "2026-11-28",
+  "version": "0.2.205",
+  "area": "Contacts",
+  "feature": "A card update shows when the other person changed their card.",
+  "de": "Eine Kartenaktualisierung zeigt, wann die andere Person ihre Karte geändert hat.",
+  "fr": "Une mise à jour de carte indique quand l’autre personne a modifié sa carte."
+ },
+ {
+  "date": "2026-11-28",
   "version": "0.2.202",
   "area": "People",
   "feature": "On the Mac, the edit form shows the note without the cardXchange history block.",
