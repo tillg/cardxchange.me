@@ -454,5 +454,13 @@
   "feature": "Nickname and birthday can go on your card; both are off at first.",
   "de": "Spitzname und Geburtstag können auf deine Karte; beide sind zuerst aus.",
   "fr": "Le surnom et la date de naissance peuvent figurer sur votre carte ; les deux sont désactivés au départ."
+ },
+ {
+  "date": "2026-11-28",
+  "version": "0.2.200",
+  "area": "People",
+  "feature": "The search also finds people by company, city and country.",
+  "de": "Die Suche findet Personen auch über Firma, Stadt und Land.",
+  "fr": "La recherche trouve aussi les personnes par entreprise, ville et pays."
  }
 ]
