@@ -441,6 +441,22 @@
  },
  {
   "date": "2026-11-28",
+  "version": "0.2.202",
+  "area": "People",
+  "feature": "On the Mac, the edit form shows the note without the cardXchange history block.",
+  "de": "Auf dem Mac zeigt das Bearbeiten-Formular die Notiz ohne den Verlaufsblock von cardXchange.",
+  "fr": "Sur le Mac, le formulaire de modification affiche la note sans le bloc d’historique de cardXchange."
+ },
+ {
+  "date": "2026-11-28",
+  "version": "0.2.203",
+  "area": "People",
+  "feature": "In the edit form, the empty fields \"How we met\" and \"Notes\" line up with their labels.",
+  "de": "Im Bearbeiten-Formular stehen leere Felder „Kennenlernen“ und „Notizen“ auf der Höhe ihrer Bezeichnung.",
+  "fr": "Dans le formulaire de modification, les champs vides « Rencontre » et « Notes » sont à la hauteur de leur libellé."
+ },
+ {
+  "date": "2026-11-28",
   "version": "0.2.194",
   "area": "Contacts",
   "feature": "Fields on a cardXchange link changes what that one person gets from your card.",
