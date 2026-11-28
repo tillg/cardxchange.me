@@ -457,6 +457,14 @@
  },
  {
   "date": "2026-11-28",
+  "version": "0.2.201",
+  "area": "Map",
+  "feature": "On the Mac, \"Open\" on a pin of the map opens the person again.",
+  "de": "Auf dem Mac öffnet „Öffnen“ an einer Stecknadel der Karte wieder die Person.",
+  "fr": "Sur le Mac, « Ouvrir » sur une épingle de la carte ouvre de nouveau la personne."
+ },
+ {
+  "date": "2026-11-28",
   "version": "0.2.200",
   "area": "People",
   "feature": "The search also finds people by company, city and country.",
