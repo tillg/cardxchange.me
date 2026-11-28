@@ -481,6 +481,14 @@
  },
  {
   "date": "2026-11-28",
+  "version": "0.2.209",
+  "area": "Events",
+  "feature": "\"New Event\" also works when the list has no people yet.",
+  "de": "„Neues Ereignis“ funktioniert auch, wenn die Liste noch keine Personen hat.",
+  "fr": "« Nouvel événement » fonctionne aussi quand la liste n’a encore personne."
+ },
+ {
+  "date": "2026-11-28",
   "version": "0.2.191",
   "area": "Settings",
   "feature": "Nickname and birthday can go on your card; both are off at first.",
@@ -518,5 +526,13 @@
   "feature": "The search of the map finds a place when it finds no person.",
   "de": "Die Suche der Karte findet einen Ort, wenn sie keine Person findet.",
   "fr": "La recherche de la carte trouve un lieu quand elle ne trouve aucune personne."
+ },
+ {
+  "date": "2026-11-28",
+  "version": "0.2.208",
+  "area": "People",
+  "feature": "A tag that you type with \"#\" is stored without the \"#\".",
+  "de": "Ein Schlagwort, das du mit „#“ eingibst, wird ohne „#“ gespeichert.",
+  "fr": "Un tag que vous tapez avec « # » est enregistré sans « # »."
  }
 ]
